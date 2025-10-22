@@ -16,10 +16,10 @@
 
 @font-face {
     font-family: 'Inconsolata';
-    src: url('/storage/fonts/inconsolata/Inconsolata.woff2') format('woff2'),
-         url('/storage/fonts/inconsolata/Inconsolata.woff') format('woff'),
-         url('/storage/fonts/inconsolata/Inconsolata.ttf') format('truetype'),
-         url('/storage/fonts/inconsolata/Inconsolata.otf') format('otf');
+    src: url('https://jordnanblee.github.io/seraph/storage/fonts/inconsolata/Inconsolata.woff2') format('woff2'),
+         url('https://jordnanblee.github.io/seraph/storage/fonts/inconsolata/Inconsolata.woff') format('woff'),
+         url('https://jordnanblee.github.io/seraph/storage/fonts/inconsolata/Inconsolata.ttf') format('truetype'),
+         url('https://jordnanblee.github.io/seraph/storage/fonts/inconsolata/Inconsolata.otf') format('otf');
 }
 
 @font-face {
