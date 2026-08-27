@@ -23,7 +23,6 @@
 .pinned-container{display:flex;flex-wrap:wrap;justify-content:center}
 .pin-button{position:absolute;top:5px;right:5px;z-index:2}
 </style>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYVX83QXES"></script>
 <script>
@@ -48,26 +47,25 @@
   }
 }
 </script>
-  </head>
-  <body>
+</head>
+<body>
 <script>
 if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
 .then(registration => {console.log('Service Worker registered successfully:', registration);})
 .catch(error => {console.log('Error in Service Worker registration:', error);});});}
 </script>
-        <h1 class="typewriter"><span id="cursor"></span></h1>
+<h1 class="typewriter"><span id="cursor"></span></h1>
 
-        <input type="text" id="search" placeholder="⌕ search" autocomplete="off">
-        <select id="genreDropdown" style="margin-top: 5px; margin-left: 5px;">
-            <option value="all">all</option>
-            <option value="adventure">adventure</option>
-            <option value="arcade">arcade</option>
-            <option value="mobile">mobile friendly</option>
-            <option value="platformer">platformer</option>
-            <option value="puzzle">puzzle</option>
-            <option value="simulation">simulation</option>
-        </select>
-        
+<input type="text" id="search" placeholder="⌕ search" autocomplete="off">
+<select id="genreDropdown" style="margin-top: 5px; margin-left: 5px;">
+<option value="all">all</option>
+<option value="adventure">adventure</option>
+<option value="arcade">arcade</option>
+<option value="mobile">mobile friendly</option>
+<option value="platformer">platformer</option>
+<option value="puzzle">puzzle</option>
+<option value="simulation">simulation</option>
+</select>   
 <p class="linkp"><a href="https://jordnanblee.github.io/">homepage</a> •  <a id="openBlankLink">open blank games</a></p>
         
         <br>
