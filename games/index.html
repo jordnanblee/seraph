@@ -1,61 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z3NQFWLRFN"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="https://jordnanblee.github.io/manifest.json">
+<link rel="shortcut icon" href="../images/ico.ico" type="image/x-icon">
+<link rel="stylesheet" href="storage/css/games.css">
+<title>Seraph Games - Play Online</title>
+<meta name="description" content="Play Seraph Games online for free! Discover fun, exciting, and challenging games you can play instantly on desktop and mobile. No download required.">
+<meta property="og:site_name" content="JB Games">
+<meta property="og:title" content="Seraph Games - Play Free Online Games">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Explore Seraph Games and enjoy fun, challenging online games for free. Play instantly on desktop or mobile with no download required.">
+<meta property="og:image" content="https://jordnanblee.github.io/og-image.jpg">
+<meta property="og:image:width" content="1127">
+<meta property="og:image:height" content="644">
+<meta name="robots" content="index, follow">
+<style>
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--accent2);border-radius:3px}
+.pinned-container{display:flex;flex-wrap:wrap;justify-content:center}
+.pin-button{position:absolute;top:5px;right:5px;z-index:2}
+</style>
 
-          gtag('config', 'G-Z3NQFWLRFN');
-        </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YYVX83QXES"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../images/ico.ico" type="image/x-icon">
-        <link rel="stylesheet" href="storage/css/games.css">
-        <title>3kh0 Games Seraph - Play Online</title>
-
-        <meta name="description" content="Explore Seraph 3kh0s games - a collection of fun, free, and unblocked browser games for all ages. Play anywhere, anytime with no downloads required!">
-        <meta property="og:site_name" content="seraph">
-        <meta property="og:title" content="seraph">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="an open source games site hosting 500+ games, useful utilities, powerful settings + a clean user interface">
-        
-        <style>
-            .pinned-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .pin-button {
-                position: absolute;
-                top: 5px;
-                right: 5px; 
-                z-index: 2; 
-            }
-        </style>
-
-        <script>
-            if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('offline-worker.js').then(function(registration) {
-                    console.log('service worker initalised! scope:', registration.scope);
-        
-                    navigator.serviceWorker.addEventListener('message', function(event) {
-                        if (event.data === 'cached') {
-                            document.getElementById('cache-status').style.display = 'block';
-                        }
-                    });
-                }, function(error) {
-                    console.log('ack, error with serviceworker! ', error);
-                });
-            });
-        }
-        </script>
+  gtag('config', 'G-YYVX83QXES');
+</script>
+<!-- Schema.org WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "JB Games",
+  "url": "https://jordnanblee.github.io/",
+  "description": "Jump into 500+ free browser games at JB Games. No downloads required.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://jordnanblee.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
   </head>
   <body>
-    
+<script>
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+.then(registration => {console.log('Service Worker registered successfully:', registration);})
+.catch(error => {console.log('Error in Service Worker registration:', error);});});}
+</script>
         <h1 class="typewriter"><span id="cursor"></span></h1>
 
         <input type="text" id="search" placeholder="⌕ search" autocomplete="off">
@@ -69,7 +68,7 @@
             <option value="simulation">simulation</option>
         </select>
         
-        <p class="linkp"><a href="../index.html">homepage</a> •  <a href="https://github.com/a456pur/seraph" target="_blank">github</a> •  <a href="https://discord.gg/ZyZDmx3zuQ" target="_blank">discord</a> •  <a id="openBlankLink">open blank</a></p>
+<p class="linkp"><a href="https://jordnanblee.github.io/">homepage</a> •  <a id="openBlankLink">open blank games</a></p>
         
         <br>
         <h2 class="pinned-header">starred games</h2>
